@@ -1,0 +1,32 @@
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.nav__logo {
+  width: 80px;
+}
+.nav__list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+.nav__list-link {
+  font-family: var(--mont), sans-serif;
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.nav__list-link:hover {
+  color: #debe80;
+}
+.nav__link-active {
+  color: #debe80;
+}

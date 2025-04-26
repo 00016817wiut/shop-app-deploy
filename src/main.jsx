@@ -1,0 +1,13 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.jsx'
+import './assets/styles/root.css';
+import './assets/styles/fonts.css';
+import './assets/styles/common.css';
+import './assets/styles/swiper.css';
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)

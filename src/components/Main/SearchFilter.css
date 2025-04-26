@@ -1,0 +1,6 @@
+.search_filter select {
+  border: none;
+  outline: none;
+  font-size: var(--mont);
+  font-weight: 300;
+}
